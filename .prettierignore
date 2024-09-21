@@ -1,0 +1,4 @@
+# Ignore node_modules and build directories
+node_modules
+build
+.prettierrc

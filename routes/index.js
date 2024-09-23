@@ -1,11 +1,11 @@
 import express from 'express';
-import userRoues from './userRoutes.js'
+import userRoues from './userRoutes.js';
 const app = express.Router();
 
-// user routes 
-app.use('/user',userRoues)
+// user routes
+app.use('/user', userRoues);
 
-// other  routes 
+// other  routes
 // app.get('/cart', cartRoues)
 
-export default app
+export default app;

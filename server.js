@@ -20,10 +20,8 @@ app.use(cors()); // Enable CORS for all routes
 // Routes
 app.use('/api', apiRoutes);
 
-
 // Define the port
 const PORT = process.env.PORT || 5000;
-
 
 // Start the server
 app.listen(PORT, () => {
